@@ -9,3 +9,4 @@ C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Domain\obj\D
 C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net8.0\refint\CleanArchMvc.Domain.dll
 C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net8.0\CleanArchMvc.Domain.pdb
 C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net8.0\ref\CleanArchMvc.Domain.dll
+C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net8.0\CleanArchMvc.Domain.sourcelink.json

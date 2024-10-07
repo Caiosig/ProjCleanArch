@@ -1,12 +1,44 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Caio\\OneDrive\\Desktop\\.Net clean\\CleanArchMvc\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0607DC26-4318-4E72-A8D8-6D6CA18A0D92}|Solution Items{0607DC26-4318-4E72-A8D8-6D6CA18A0D92}|C:\\Users\\Caio\\Downloads\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Caio\\Downloads\\.gitignore",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\.gitignore",
+              "ToolTip": "C:\\Users\\Caio\\Downloads\\.gitignore",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\.gitignore",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvyMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-07T18:41:32.544Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

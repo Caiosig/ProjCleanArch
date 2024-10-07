@@ -38,3 +38,4 @@ C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.WebUI\bin\De
 C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net8.0\CleanArchMvc.Infra.Data.pdb
 C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net8.0\CleanArchMvc.WebUI.csproj.AssemblyReference.cache
 C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net8.0\CleanArc.70E77D8B.Up2Date
+C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net8.0\CleanArchMvc.WebUI.sourcelink.json

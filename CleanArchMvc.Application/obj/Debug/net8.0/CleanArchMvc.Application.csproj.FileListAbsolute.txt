@@ -13,3 +13,4 @@ C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Application\
 C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net8.0\refint\CleanArchMvc.Application.dll
 C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net8.0\CleanArchMvc.Application.pdb
 C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net8.0\ref\CleanArchMvc.Application.dll
+C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net8.0\CleanArchMvc.Application.sourcelink.json
