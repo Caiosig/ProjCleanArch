@@ -3,7 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Caio\\OneDrive\\Desktop\\.Net clean\\CleanArchMvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0607DC26-4318-4E72-A8D8-6D6CA18A0D92}|Solution Items{0607DC26-4318-4E72-A8D8-6D6CA18A0D92}|C:\\Users\\Caio\\Downloads\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{078B92E7-D093-472F-B674-D90C210B205D}|CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj|c:\\users\\caio\\onedrive\\desktop\\.net clean\\cleanarchmvc\\cleanarchmvc.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078B92E7-D093-472F-B674-D90C210B205D}|CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj|solutionrelative:cleanarchmvc.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C4FC19-7CD7-4A96-B6C3-818781277C0B}|CleanArchMvc.Domain.Tests\\CleanArchMvc.Domain.Tests.csproj|c:\\users\\caio\\onedrive\\desktop\\.net clean\\cleanarchmvc\\cleanarchmvc.domain.tests\\productunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C4FC19-7CD7-4A96-B6C3-818781277C0B}|CleanArchMvc.Domain.Tests\\CleanArchMvc.Domain.Tests.csproj|solutionrelative:cleanarchmvc.domain.tests\\productunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,15 +30,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\Caio\\OneDrive\\Desktop\\.Net clean\\CleanArchMvc\\CleanArchMvc.Domain.Tests\\ProductUnitTests.cs",
+              "RelativeDocumentMoniker": "CleanArchMvc.Domain.Tests\\ProductUnitTests.cs",
+              "ToolTip": "C:\\Users\\Caio\\OneDrive\\Desktop\\.Net clean\\CleanArchMvc\\CleanArchMvc.Domain.Tests\\ProductUnitTests.cs",
+              "RelativeToolTip": "CleanArchMvc.Domain.Tests\\ProductUnitTests.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAwGIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T18:41:17.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Caio\\Downloads\\.gitignore",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\.gitignore",
-              "ToolTip": "C:\\Users\\Caio\\Downloads\\.gitignore",
-              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\.gitignore",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwvyMAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-07T18:41:32.544Z",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Caio\\OneDrive\\Desktop\\.Net clean\\CleanArchMvc\\CleanArchMvc.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "CleanArchMvc.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Caio\\OneDrive\\Desktop\\.Net clean\\CleanArchMvc\\CleanArchMvc.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "CleanArchMvc.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswEsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T18:39:34.683Z",
               "EditorCaption": ""
             }
           ]
