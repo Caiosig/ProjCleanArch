@@ -98,6 +98,5 @@ namespace CleanArchMvc.Domain.Tests
             Action action = () => new Product(1, "Create Product", "Description product", 10, 10, null);
             action.Should().NotThrow<NullReferenceException>();
         }
-
     }
 }

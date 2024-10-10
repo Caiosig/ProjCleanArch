@@ -18,3 +18,5 @@ C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Infra.IoC\ob
 C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net8.0\CleanArchMvc.Infra.IoC.pdb
 C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net8.0\ref\CleanArchMvc.Infra.IoC.dll
 C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net8.0\CleanArchMvc.Infra.IoC.sourcelink.json
+C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Infra.IoC\bin\Debug\net8.0\CleanArchMvc.Infra.IoC.runtimeconfig.json
+C:\Users\Caio\OneDrive\Desktop\.Net clean\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net8.0\CleanArchMvc.Infra.IoC.genruntimeconfig.cache
