@@ -4,10 +4,19 @@ namespace CleanArchMvc.Application.Interfaces
 {
     public interface ICategoryService
     {
-        Task<IEnumerable<CategoryDTO>> GetCategories();
-        Task<CategoryDTO> GetById(int? id);
-        Task Add(CategoryDTO categoryDTO);
-        Task Update(CategoryDTO categoryDTO);
-        Task Delete(int? id);
+		//Retornar uma lista de categorias, assincrona
+		Task<IEnumerable<CategoryDTO>> GetCategories();
+
+		//Retorna apenas uma categoria, assincrona
+		Task<CategoryDTO> GetById(int? id);
+
+		//Irá criar uma nova categoria
+		Task Add(CategoryDTO categoryDTO);
+
+		//Irá atualizar a categoria
+		Task Update(CategoryDTO categoryDTO);
+
+		//Irá deletar uma categoria
+		Task Delete(int? id);
     }
 }

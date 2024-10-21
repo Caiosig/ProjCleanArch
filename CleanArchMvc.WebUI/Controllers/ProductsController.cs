@@ -9,14 +9,14 @@ namespace CleanArchMvc.WebUI.Controllers
 
         public ProductsController(IProductService productService)
         {
-                _productService = productService;
+            _productService = productService;
         }
 
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var result = await _productService.GetProduts();
-            return View(result);
+            var products = await _productService.GetProduts();
+            return View(products);
         }
     }
 }

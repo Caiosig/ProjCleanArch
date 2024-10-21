@@ -15,8 +15,8 @@ namespace CleanArchMvc.WebUI.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var result = await _categoryService.GetCategories();
-            return View(result);
+            var categories = await _categoryService.GetCategories();
+            return View(categories);
         }
     }
 }
