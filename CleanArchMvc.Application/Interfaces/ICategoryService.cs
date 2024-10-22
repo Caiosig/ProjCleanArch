@@ -2,8 +2,8 @@
 
 namespace CleanArchMvc.Application.Interfaces
 {
-    public interface ICategoryService
-    {
+	public interface ICategoryService
+	{
 		//Retornar uma lista de categorias, assincrona
 		Task<IEnumerable<CategoryDTO>> GetCategories();
 
@@ -18,5 +18,5 @@ namespace CleanArchMvc.Application.Interfaces
 
 		//Irá deletar uma categoria
 		Task Delete(int? id);
-    }
+	}
 }

@@ -25,6 +25,6 @@ namespace CleanArchMvc.Application.Interfaces
 		Task Update(ProductDTO productDTO);
 
 		//Irá deletar um produto
-		Task Delete(int id);
+		Task Delete(int? id);
     }
 }

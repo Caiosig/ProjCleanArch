@@ -23,7 +23,7 @@ namespace CleanArchMvc.Application.Products.Handlers
 			if (product == null)
 				throw new ApplicationException($"Error creating entity");
 			else
-			{	//Caso o produto não seja nulo, será feito o cadastro do produto conforme as informações do usuário
+			{   //Caso o produto não seja nulo, será feito o cadastro do produto conforme as informações do usuário
 				product.CategoryId = request.CategoryId;
 				return await _productRepository.CreateAsync(product);
 			}

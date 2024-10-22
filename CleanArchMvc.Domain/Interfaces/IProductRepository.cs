@@ -1,31 +1,26 @@
 ﻿using CleanArchMvc.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CleanArchMvc.Domain.Interfaces
 {
-    public interface IProductRepository
-    {
+	public interface IProductRepository
+	{
 
-        //Retornar uma lista de produtos, assincrona
-        Task<IEnumerable<Product>> GetProductsAsync();
+		//Retornar uma lista de produtos, assincrona
+		Task<IEnumerable<Product>> GetProductsAsync();
 
-        //Retorna apenas uma produtos, assincrona
-        Task<Product> GetByIdAsync(int? id);
+		//Retorna apenas uma produtos, assincrona
+		Task<Product> GetByIdAsync(int? id);
 
-        //Retorna os produtos pelo id da categoria
-        Task<Product> GetProductCategoryAsync(int? id);
+		//Retorna os produtos pelo id da categoria
+		Task<Product> GetProductCategoryAsync(int? id);
 
-        //Irá criar um novo produto
-        Task<Product> CreateAsync(Product product);
+		//Irá criar um novo produto
+		Task<Product> CreateAsync(Product product);
 
-        //Irá atualizar um produto
-        Task<Product> UpdateAsync(Product product);
+		//Irá atualizar um produto
+		Task<Product> UpdateAsync(Product product);
 
-        //Irá deletar um produto
-        Task<Product> RemoveAsync(Product product);
-    }
+		//Irá deletar um produto
+		Task<Product> RemoveAsync(Product product);
+	}
 }
