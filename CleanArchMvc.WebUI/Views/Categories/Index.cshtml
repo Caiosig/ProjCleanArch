@@ -19,7 +19,7 @@
 	<div class="col-md-12">
 		<div>
 			<div class="pull-left">
-				<a asp-action="Create" class="btn btn-primary">
+				<a asp-action="Create" class="btn btn-outline-success">
 					<span title="Register New" class="fas fa-plus"></span> Register New
 				</a>
 			</div>
@@ -33,8 +33,12 @@
 		<thead>
 			<tr>
 				<th>
+					Nº
+				</th>
+				<th>
 					@Html.DisplayNameFor(Model => Model.Name)
 				</th>
+				<th></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -42,18 +46,21 @@
 			{
 				<tr>
 					<td>
+						@Html.DisplayFor(modelItem => item.Id)
+					</td>
+					<td>
 						@Html.DisplayFor(modelItem => item.Name)
 					</td>
 					<td>
-						<a asp-action="Edit" asp-route-id="@item.Id" title="Edit" class="btn btn-warning">
+						<a asp-action="Edit" asp-route-id="@item.Id" title="Edit" class="btn btn-outline-warning">
 							<span class="fas da-edit">Edit</span>
 						</a>
 
-						<a asp-action="Details" asp-route-id="@item.Id" title="Details" class="btn btn-primary">
-							<span calss="fas fa-trash-alt">Delete</span>
+						<a asp-action="Details" asp-route-id="@item.Id" title="Details" class="btn btn-outline-primary">
+							<span calss="fas fa-trash-alt">Details</span>
 						</a>
 
-						<a asp-action="Delete" asp-route-id="@item.Id" title="Delete" class="btn btn-danger">
+						<a asp-action="Delete" asp-route-id="@item.Id" title="Delete" class="btn btn-outline-danger">
 							<span class="fas fa-trash-alt">Delete</span>
 						</a>
 					</td>
