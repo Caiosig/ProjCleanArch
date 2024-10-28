@@ -10,13 +10,13 @@ namespace CleanArchMvc.Application.Products.Handlers
 		//Injeção de dependencia
 		private readonly IProductRepository _productRepository;
 
-        public ProductUpdateCommandHandler(IProductRepository productRepository)
-        {
-            _productRepository = productRepository ?? 
+		public ProductUpdateCommandHandler(IProductRepository productRepository)
+		{
+			_productRepository = productRepository ??
 				throw new ArgumentNullException(nameof(productRepository));
-        }
+		}
 
-        public async Task<Product> Handle(ProductUpdateCommand request, CancellationToken cancellationToken)
+		public async Task<Product> Handle(ProductUpdateCommand request, CancellationToken cancellationToken)
 		{
 			//Será pego o Id do produto via metodo do repository
 			var product = await _productRepository.GetByIdAsync(request.Id);
@@ -26,7 +26,9 @@ namespace CleanArchMvc.Application.Products.Handlers
 			else
 			{
 				//Caso retorne o Id do produto, será feito o update conforme os dados passado pelo usuário
-				product.Update(request.Name, request.Description, request.Price, request.Stock, request.Image, request.CategoryId);
+				product.Update(request.Name, request.Description, request.Price,
+								request.Stock, request.Image, request.CategoryId);
+
 				return await _productRepository.UpdateAsync(product);
 			}
 		}
