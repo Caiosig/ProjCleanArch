@@ -1,5 +1,6 @@
 ﻿using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -118,6 +119,8 @@ namespace CleanArchMvc.WebUI.Controllers
 		/// <param name="CategoryDTO">Objetos com os campos necessários para remoção da categoria</param>
 		/// <returns>IActionResult</returns>
 		/// <response code="200">Caso seja retornado o Id com sucesso</response>
+		/// Somente usuários autenticados e com role ADMIN podem excluir produtos
+		[Authorize(Roles ="Admin")]
 		[HttpGet]
 		[ProducesResponseType(StatusCodes.Status200OK)]
 		public async Task<IActionResult> Delete(int? id)

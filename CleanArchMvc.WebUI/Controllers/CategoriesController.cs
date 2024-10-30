@@ -1,9 +1,12 @@
 ﻿using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArchMvc.WebUI.Controllers
 {
+	//Somente usuários autenticados podem fazer requisições nessa controller
+	[Authorize]
 	public class CategoriesController : Controller
 	{
 		#region Injeção de dependencia
